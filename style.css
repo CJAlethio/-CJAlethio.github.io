@@ -5,15 +5,17 @@ main {
     grid-template-columns: 25% 75%;
 }
 
+
 article {
     margin-left: 1em;
-}
+} 
 
 body {
     background: #0a7ba8;
 }
 
 main img {
+    min-width: 374px;
     width: 100%;
     display: block;
 }
