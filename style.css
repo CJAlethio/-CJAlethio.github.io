@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Alatsi&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root {
+    --TitleFont: "Alatsi", serif;
+    --Font: "Josefin Sans", sans-serif;
+    --color1: #000066;
+    --color2: #000099;
+    --colorActive: #AD77E3;
+  }
 
 
 main {
@@ -5,10 +14,40 @@ main {
     grid-template-columns: 25% 75%;
 }
 
+nav {
+    background: var(--color1);
+    font-family: var(--Font);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: .5em;
+    margin: .5em;
+  }
+
+  a:hover {
+    background: var(--color2);
+  }
+  
+  a:active {
+    background: var(--colorActive);
+  }
 
 article {
     margin-left: 1em;
 } 
+
+h1 {
+    display: inline;
+    flex-grow: 1;
+    order: -1;
+    font-family: var(--TitleFont);
+  }
 
 body {
     background: #0a7ba8;
@@ -19,3 +58,12 @@ main img {
     width: 100%;
     display: block;
 }
+
+
+@media (max-width: 574px) {
+
+    nav {
+      flex-direction: column;
+    }
+    
+  }
