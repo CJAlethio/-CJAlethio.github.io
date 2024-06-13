@@ -6,13 +6,15 @@
     --color1: #000066;
     --color2: #000099;
     --colorActive: #AD77E3;
+    --colorText: white;
   }
 
 
-/* main {
+section {
     display: grid;
     grid-template-columns: 25% 75%;
-} */
+    font-family: var(--Font);
+} 
 
 nav {
     background: var(--color1);
@@ -23,7 +25,7 @@ nav {
   }
 
   nav a {
-    color: white;
+    color: var(--colorText);
     text-decoration: none;
     text-align: center;
     padding: .5em;
@@ -40,6 +42,7 @@ nav {
 
 article {
     margin-left: 1em;
+    margin-right: 20%;
 } 
 
 h1 {
@@ -49,8 +52,10 @@ h1 {
     font-family: var(--TitleFont);
   }
 
+
 body {
-    background: #0a7ba8;
+    background: var(--color2);
+    color: var(--colorText);
 }
 
 main img {
