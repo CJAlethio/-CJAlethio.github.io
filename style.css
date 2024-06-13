@@ -1,14 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Alatsi&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alatsi&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lugrasimo&display=swap');
 
 :root {
     --TitleFont: "Alatsi", serif;
     --Font: "Josefin Sans", sans-serif;
+    --Heading: "Lugrasimo", serif;
     --color1: #000066;
     --color2: #000099;
     --colorActive: #AD77E3;
     --colorText: white;
   }
 
+  main {
+    display:flexbox;
+    flex-flow: wrap;
+  }
 
 section {
     display: grid;
@@ -54,10 +59,11 @@ h1 {
 
 h2 {
   margin-bottom: 0px;
+  font-family: var(--Heading);
 }
 
 p {
-  margin: 0 0;
+  margin: .55em 0;
 }
 
 body {
