@@ -9,10 +9,10 @@
   }
 
 
-main {
+/* main {
     display: grid;
     grid-template-columns: 25% 75%;
-}
+} */
 
 nav {
     background: var(--color1);
@@ -58,12 +58,3 @@ main img {
     width: 100%;
     display: block;
 }
-
-
-@media (max-width: 574px) {
-
-    nav {
-      flex-direction: column;
-    }
-    
-  }
