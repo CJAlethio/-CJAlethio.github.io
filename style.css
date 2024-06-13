@@ -17,8 +17,8 @@
 
 section {
     display: grid;
-    grid-template-columns: 25% 75%;
     font-family: var(--Font);
+    grid-template-columns: 1fr 3fr;
 } 
 
 nav {
@@ -75,5 +75,4 @@ body {
 main img {
     min-width: 374px;
     width: 100%;
-    display: block;
 }
